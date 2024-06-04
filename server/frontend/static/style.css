@@ -124,3 +124,43 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.dealership {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.dealership__image {
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 150px;
+}
+
+.dealership__info > p:first-child {
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+.dealership__hours > p:first-child {
+    font-weight: bold;
+}
+
+.dealership__hours-div {
+    display: flex;
+}
+
+.dealership__hours-div p, .dealership__hours-time p {
+    margin-bottom: 5px;
+}
+
+.dealership__hours-each {
+    display: grid;
+}
+
+.dealership__hours-time {
+    margin-left: 25px;
+}
